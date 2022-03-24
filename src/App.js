@@ -4,7 +4,7 @@ import Clock from './components/Clock/Clock';
 function App() {
   return (
     <div className="App">
-      <Clock></Clock>
+      <Clock local="bn-BD">Present Time</Clock>
     </div>
   );
 }
